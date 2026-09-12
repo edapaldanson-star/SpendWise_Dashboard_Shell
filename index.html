@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpendWise Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-icon">💳</span>
+        <h2>SpendWise</h2>
+      </div>
+      <nav class="nav-menu">
+        <a href="#" class="nav-item active">
+          <span class="nav-icon">📊</span>
+          <span>Overview</span>
+        </a>
+        <a href="#" class="nav-item">
+          <span class="nav-icon">💸</span>
+          <span>Expenses</span>
+        </a>
+        <a href="#" class="nav-item">
+          <span class="nav-icon">🎯</span>
+          <span>Budgets</span>
+        </a>
+        <a href="#" class="nav-item">
+          <span class="nav-icon">📈</span>
+          <span>Analytics</span>
+        </a>
+        <a href="#" class="nav-item">
+          <span class="nav-icon">⚙️</span>
+          <span>Settings</span>
+        </a>
+      </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Top Header -->
+      <header class="header">
+        <div class="header-title">
+          <h1>Dashboard Overview</h1>
+          <p class="subtitle">Track and manage your spending habits</p>
+        </div>
+        <div class="user-profile">
+          <button class="profile-btn" aria-label="User Profile">
+            <span class="avatar">JS</span>
+            <span class="user-name">Jane Doe</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Category Cards Grid -->
+      <section class="cards-grid">
+        
+        <article class="card" tabindex="0">
+          <div class="card-header">
+            <span class="card-title">Food & Dining</span>
+            <span class="card-icon">🍔</span>
+          </div>
+          <div class="card-body">
+            <span class="amount">$450.00</span>
+            <span class="budget-status status-alert">75% of budget</span>
+          </div>
+        </article>
+
+        <article class="card" tabindex="0">
+          <div class="card-header">
+            <span class="card-title">Transportation</span>
+            <span class="card-icon">🚗</span>
+          </div>
+          <div class="card-body">
+            <span class="amount">$180.50</span>
+            <span class="budget-status status-ok">45% of budget</span>
+          </div>
+        </article>
+
+        <article class="card" tabindex="0">
+          <div class="card-header">
+            <span class="card-title">Housing & Rent</span>
+            <span class="card-icon">🏠</span>
+          </div>
+          <div class="card-body">
+            <span class="amount">$1,200.00</span>
+            <span class="budget-status status-ok">100% fixed</span>
+          </div>
+        </article>
+
+        <article class="card" tabindex="0">
+          <div class="card-header">
+            <span class="card-title">Entertainment</span>
+            <span class="card-icon">🎬</span>
+          </div>
+          <div class="card-body">
+            <span class="amount">$95.00</span>
+            <span class="budget-status status-ok">30% of budget</span>
+          </div>
+        </article>
+
+        <article class="card" tabindex="0">
+          <div class="card-header">
+            <span class="card-title">Savings Goal</span>
+            <span class="card-icon">💰</span>
+          </div>
+          <div class="card-body">
+            <span class="amount">$650.00</span>
+            <span class="budget-status status-growth">+12% this month</span>
+          </div>
+        </article>
+
+        <article class="card" tabindex="0">
+          <div class="card-header">
+            <span class="card-title">Utilities</span>
+            <span class="card-icon">⚡</span>
+          </div>
+          <div class="card-body">
+            <span class="amount">$210.30</span>
+            <span class="budget-status status-ok">60% of budget</span>
+          </div>
+        </article>
+
+      </section>
+    </main>
+  </div>
+</body>
+</html>
